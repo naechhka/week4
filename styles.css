@@ -103,7 +103,7 @@ iframe {
 .container-navigation{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column-reverse;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
