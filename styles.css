@@ -87,9 +87,14 @@ li{
 .section-three {
     background-color: lightcoral;
     height: 800px;
+}
+
+.container-video {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     align-items: center;
-    flex-direction: row;
+    justify-content: center;
 }
 
 iframe { 
@@ -104,6 +109,20 @@ iframe {
     background-color: darkslateblue;
     height: 500px;
     
+}
+
+.container-audio {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+figcaption{
+    text-align: center;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 /* section 5 media items */
