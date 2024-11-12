@@ -75,6 +75,10 @@ li{
 .section-two {
     background-color: orangered;
     height: 700px;
+    display: felx;
+    align-items: center;
+    justify-content: center;
+
 
 }
 
