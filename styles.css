@@ -89,7 +89,7 @@ li{
     height: 800px;
     display: flex;
     align-items: center;
-
+    flex-direction: row;
 }
 
 iframe { 
