@@ -134,7 +134,6 @@ figcaption{
 
 .section-five {
     background-color: goldenrod;
-    height: 1400px;
 
 }
 
@@ -168,7 +167,7 @@ figcaption{
 }
 
 /* button style */
-button{
+button {
     border: 1px solid blueviolet;
     border-radius: 5px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -178,7 +177,25 @@ button{
     transition-duration: .4s;
 }
 
-button:hover{
+button:hover {
     background-color: limegreen;
     color: white;
+}
+
+button:active {
+    background-color: aqua;
+    box-shadow: 0 5px darkred;
+    transform: translateY(4px);
+}
+
+/* footer goes here */
+
+footer {
+    background-color: rebeccapurple;
+    height: 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-samll;
+    color: white;
+    padding: 10px 0px;
 }
