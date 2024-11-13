@@ -90,11 +90,13 @@ a{
 /* section 3 youtube video */
 
 .section-three {
+
     background-color: lightcoral;
     height: 800px;
 }
 
 .container-video {
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -111,12 +113,14 @@ iframe {
 /* section 4 embed audio */
 
 .section-four {
+
     background-color: darkslateblue;
     height: 500px;
     
 }
 
 .container-audio {
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -124,6 +128,7 @@ iframe {
 }
 
 figcaption{
+
     text-align: center;
     color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -133,22 +138,28 @@ figcaption{
 /* section 5 media items */
 
 .section-five {
+
     background-color: goldenrod;
 
 }
 
 /* wrapper for navbar */
+
 .container-navigation{ 
+
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+
 }
 
 .push{
+
     margin-left: auto;
 }
 
 .media-container { 
+
     display: flex;
     justify-content: flex-start;
     flex-wrap: wrap;
@@ -198,4 +209,25 @@ footer {
     font-size: x-samll;
     color: white;
     padding: 10px 0px;
+}
+
+/* button-page */
+
+.button-section-one{
+
+    background-color: lightpink;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-image{
+
+    border: 3px solid white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    width: 70%;
+
 }
