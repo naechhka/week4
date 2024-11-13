@@ -35,6 +35,7 @@ li{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 /* section one flex grow and shrink */
