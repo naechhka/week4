@@ -33,6 +33,10 @@ li{
     background-color: aliceblue;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* section one flex grow and shrink */
 
 .section-one {
