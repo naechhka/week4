@@ -168,7 +168,7 @@ figcaption{
 }
 
 /* button style */
-.button{
+button{
     border: 1px solid blueviolet;
     border-radius: 5px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
